@@ -9,6 +9,11 @@ body{
     justify-content: center;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     background-color: #001219;
     display: flex;
@@ -20,7 +25,7 @@ body{
 .header ul{
     display: flex;
     list-style-type: none;
-    gap: 16px;
+    gap: 24px;
     margin-right: 42px;
     font-size: 18px;
 }
@@ -41,14 +46,18 @@ body{
 .section-1{
     background-color: #001219;
     color: #edf2f4;
-    padding: 32px;
+    padding: 42px;
     display: flex;
     gap: 8px;
+    justify-content: space-around;
 }
 
 .section-1-content{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    max-width: 600px;
 }
 
 .section-1-title{
@@ -60,8 +69,21 @@ body{
     font-size: 18px;
 }
 
-.section-1-image{
+.section-1-button{
+    background-color: #689900;
+    padding: 12px;
+    text-decoration: none;
+    box-shadow: none;
+    border-style: solid;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+    color: #edf2f4;
+    border-radius: 12px;
+    font-weight: bold;
+}
 
+.section-1-image{
+    max-width: 400px;
 }
 
 .section-2{
@@ -85,6 +107,7 @@ body{
 .item-img{
     border: 2px solid #001219;
     border-radius: 20px;
+    max-width: 200px;
 }
 
 .section-3{
@@ -95,14 +118,15 @@ body{
     background-color: #edf2f4;
 }
 
+.contact-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
 .footer{
     background-color: #001219;
     color: #edf2f4;
     display: flex;
     justify-content: center;
-}
-
-/* temporary solution for better visualization*/
-img{
-    width: 200px;
 }
