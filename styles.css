@@ -149,12 +149,22 @@ p{
 }
 
 .contact-section{
-    background-color: #edf2f4;
     display: flex;
+    background-color: #689900;
+    color: #edf2f4;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 60px 200px;
+    border-radius: 15px;
+    gap: 60px;
 }
 
-.contact-container{
-    background-color: #689900;
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .contact-title{
@@ -174,7 +184,7 @@ p{
     border-radius: 12px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    border: 1px solid #edf2f4;
+    border: 2px solid #edf2f4;
 }
 
 .footer{
